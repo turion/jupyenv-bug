@@ -4,6 +4,7 @@
   inputs = {
     jupyenv = {
       inputs.nixpkgs.follows = "nixpkgs";
+      inputs.poetry2nix.url = "github:nix-community/poetry2nix/?ref=refs/pull/1329/head";
       url = "github:tweag/jupyenv";
     };
   };
