@@ -3,6 +3,7 @@
 
   inputs = {
     jupyenv = {
+      inputs.nixpkgs.follows = "nixpkgs";
       url = "github:tweag/jupyenv";
     };
   };
